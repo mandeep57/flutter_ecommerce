@@ -265,26 +265,14 @@ class _HomeScreenState extends State<HomeScreen> {
       items: [
         BottomNavigationBarItem(
           icon: Icon(Icons.person_outline, color: Colors.deepOrange),
-          title: Text('SIGN IN',
-            style: TextStyle(
-              color: Colors.deepOrange,
-              fontSize: 15,
-              fontWeight: FontWeight.w600
-            )
-          ),
+          label: 'SIGN IN',
         ),
         BottomNavigationBarItem(
           icon: Icon(
             Icons.person_outline,
             color: Colors.deepOrange,
           ),
-          title: Text('CREATE ACCOUNT',
-            style: TextStyle(
-              color: Colors.deepOrange,
-              fontSize: 15,
-              fontWeight: FontWeight.w600
-            )
-          )
+          label: 'CREATE ACCOUNT',
         ),
       ],
     );

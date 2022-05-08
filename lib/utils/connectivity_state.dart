@@ -96,7 +96,7 @@ class _ConnectivityPageState extends State<ConnectivityPage> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    BackButtonInterceptor.add(myInterceptor);
+    //BackButtonInterceptor.add(myInterceptor);
   }
 
   @override

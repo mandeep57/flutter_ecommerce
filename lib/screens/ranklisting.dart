@@ -168,25 +168,12 @@ class _RankListState extends State<RankList> {
                                 child: LinearProgressIndicator(),
                                 padding: EdgeInsets.only(top: 10.0))
                                 : Container()
-                          ])),
-                      /*_isSelected
-                          ? Container(
-                        padding: EdgeInsets.only(right: 20.0, top: 30.0),
-                        alignment: Alignment.topRight,
-                        child: FloatingActionButton(
-                          onPressed: () {
-                            _scaffoldKey.currentState.openEndDrawer();
-                          },
-                          child: Icon(
-                            Icons.filter_list,
-                            color: Colors.white,
-                          ),
-                          backgroundColor: Colors.orange,
-                        ),
-                      )
-                          : Container(),*/
+                          ])
+                      ),
                     ],
-                  )));
+                  )
+              )
+          );
         });
   }
 
